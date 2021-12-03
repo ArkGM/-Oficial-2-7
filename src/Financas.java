@@ -8,7 +8,7 @@ public class Financas implements Contrato {
   @Override
   public void juros(double dias, double valor) {
 
-    this.total = (dias * 0.50) * valor;
+    this.total = (dias * 0.50) + valor;
     System.out.println("Juros: " + total + "\n");
 
   }
